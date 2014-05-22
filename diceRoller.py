@@ -1,7 +1,6 @@
 #Coin flip program
 #Describe the purpose of this program here.
 #This code should ask the user for input and then roll the number they wanted to roll
-
 import random,time
 
 
