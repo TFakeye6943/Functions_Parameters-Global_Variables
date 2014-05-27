@@ -17,9 +17,10 @@ def roll():
     roll = random.randint(1,6)#This function makes sure you can only ask for a number from 1-6
     return roll
 rolling=roll()
+time.sleep(1)
 
 def show_dice():
-    roll=int(input("What do you want to roll- "))# Thnis function asks the user for input on how much they want to roll then prints out the correct side of the die
+    roll=int(input("What do you want to roll- "))# This function asks the user for input on how much they want to roll then prints out the correct side of the die
     if roll == 1:
         print(s1)
     elif roll == 2:
@@ -33,12 +34,14 @@ def show_dice():
     else:
         print(s6)
 
+
 dice=show_dice()
 time.sleep(1)
+
+
 
 #Errors
 #no indentation
 #Always rolls a six
 #Should only print 1-6 not 1-7
 #S1 instead of s1
-
